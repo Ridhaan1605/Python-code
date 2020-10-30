@@ -1,0 +1,15 @@
+import random
+print("hey i am gonna show you a magic")
+print("please think of any number")
+print("please write done after doing each step")
+a = input()
+print("please take that same number from your friend also")
+a = input()
+b = random.randint(10,100)*2
+print("Now take {} from me and add that".format(b))
+a = input()
+print("Now half the number")
+a=input()
+print("now return the number which you have taken from your friend ")
+a=input()
+print("now see my magic, i know the number which you have now, and it is {}".format(b/2))
